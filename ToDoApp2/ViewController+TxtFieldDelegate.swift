@@ -18,7 +18,7 @@ extension ViewController: UITextFieldDelegate
             textField.text = ""
             textField.placeholder = "Yeni İş Ekle"
             
-            for i in 0..<AppData.items.count //adding Dublicates issue. Not Working fix it
+            for i in 0..<AppData.items.count //adding Dublicates issue. Not Working fix it reminder
             {
             
                 if AppData.items[i].name.lowercased() == newName.lowercased()
