@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 extension ViewController
 {
@@ -8,11 +8,11 @@ extension ViewController
         {
             if item.status
             {
-                ActiveItems.append(item)
+                DoneItems.append(item)
             }
             else
             {
-                DoneItems.append(item)
+                ActiveItems.append(item)
             }
         }
     }

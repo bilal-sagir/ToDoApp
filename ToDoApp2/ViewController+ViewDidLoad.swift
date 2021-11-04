@@ -1,8 +1,19 @@
-//
-//  ViewController+ViewDidLoad.swift
-//  ToDoApp2
-//
-//  Created by Bilal on 4.11.2021.
-//
+import UIKit
 
-import Foundation
+extension ViewController
+{
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        AppData.populate()
+        itemSeperator()
+        
+        self.tableView.tableHeaderView = headerView
+        self.TxtField.delegate = self
+        self.TxtField.autocapitalizationType = .words
+        
+        
+    }
+}
+
