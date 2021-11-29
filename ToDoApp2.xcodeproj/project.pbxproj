@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C5F9E96275466A300595CB4 /* Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E95275466A300595CB4 /* Convert.swift */; };
+		9C5F9E98275469C200595CB4 /* ReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E97275469C200595CB4 /* ReadWrite.swift */; };
 		9CA63F7927327F6500B9ECD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7827327F6500B9ECD3 /* AppDelegate.swift */; };
 		9CA63F7B27327F6500B9ECD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7A27327F6500B9ECD3 /* SceneDelegate.swift */; };
 		9CA63F7D27327F6500B9ECD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7C27327F6500B9ECD3 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		9C5F9E95275466A300595CB4 /* Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert.swift; sourceTree = "<group>"; };
+		9C5F9E97275469C200595CB4 /* ReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWrite.swift; sourceTree = "<group>"; };
 		9CA63F7527327F6500B9ECD3 /* ToDoApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA63F7827327F6500B9ECD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA63F7A27327F6500B9ECD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				9CA63F902732A12000B9ECD3 /* ViewController+TxtFieldDelegate.swift */,
 				9CA63F7E27327F6500B9ECD3 /* Main.storyboard */,
 				9CA63F8C2732815900B9ECD3 /* DataStructure.swift */,
+				9C5F9E97275469C200595CB4 /* ReadWrite.swift */,
 				9CA63F8E2732819B00B9ECD3 /* AppData.swift */,
 				9C5F9E95275466A300595CB4 /* Convert.swift */,
 				9CA63F8127327F6600B9ECD3 /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 				9CA63F912732A12000B9ECD3 /* ViewController+TxtFieldDelegate.swift in Sources */,
 				9CA63F952734172500B9ECD3 /* ViewController+ViewDidLoad.swift in Sources */,
 				9CA63F9927341E8100B9ECD3 /* ViewController+itemSeperator.swift in Sources */,
+				9C5F9E98275469C200595CB4 /* ReadWrite.swift in Sources */,
 				9CA63F8D2732815900B9ECD3 /* DataStructure.swift in Sources */,
 				9CA63F7927327F6500B9ECD3 /* AppDelegate.swift in Sources */,
 				9CA63F7B27327F6500B9ECD3 /* SceneDelegate.swift in Sources */,
