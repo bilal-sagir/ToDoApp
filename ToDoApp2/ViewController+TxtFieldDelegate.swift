@@ -39,6 +39,8 @@ extension ViewController: UITextFieldDelegate
             self.tableView.insertRows(at: [newIndexPath], with: UITableView.RowAnimation.right)
             self.tableView.endUpdates()
             
+            ReadWrite.write()
+            
             return true
         }
         else

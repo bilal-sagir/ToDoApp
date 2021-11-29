@@ -7,12 +7,12 @@ class AppData
     class func populate()
     {
         
-        let item1 = Item(name: "arabayı yıka", status: true)
-        let item2 = Item(name: "ekmek al", status: false)
-        let item3 = Item(name: "su al", status: true)
-        let item4 = Item(name: "aliyi ara", status: false)
-        let item5 = Item(name: "elektrik öde", status: false)
-        let item6 = Item(name: "ödevleri yap", status: true)
+        let item1 = Item(name: "Yapıldı Olarak İşaretlemek İçin Üstüne Bas", status: false)
+        let item2 = Item(name: "Silmek İçin Sola Çek", status: false)
+        let item3 = Item(name: "Su Al", status: true)
+        let item4 = Item(name: "Aliyi Ara", status: true)
+        let item5 = Item(name: "Elektrik Öde", status: true)
+        let item6 = Item(name: "Ödevleri Yap", status: true)
         
         items = [item1, item2, item3, item4, item5, item6]
     }

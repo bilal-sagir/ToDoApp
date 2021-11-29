@@ -41,6 +41,8 @@ extension ViewController
         
         //AppData.items.remove(at: indexPath.row)
         tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.left)
+        
+        ReadWrite.write()
     }
     
     
@@ -80,6 +82,8 @@ extension ViewController
             }
         }
         
+        
+        ReadWrite.write()
         //AppData.items[indexPath.row].status = !AppData.items[indexPath.row].status
         //tableView.reloadData()
     }

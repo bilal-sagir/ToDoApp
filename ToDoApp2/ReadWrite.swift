@@ -26,9 +26,6 @@ class ReadWrite
         }
     }
     
-    
-    
-    
     class func read()
     {
         let data = try? Data(contentsOf: dataFile)
