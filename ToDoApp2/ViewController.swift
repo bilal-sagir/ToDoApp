@@ -8,7 +8,7 @@ class ViewController: UITableViewController
     
     var ActiveItems: [Item] = []
     var DoneItems: [Item] = []
-    
+
 }
 
 
