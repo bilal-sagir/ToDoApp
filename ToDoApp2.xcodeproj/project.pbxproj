@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C5F9E96275466A300595CB4 /* Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E95275466A300595CB4 /* Convert.swift */; };
 		9CA63F7927327F6500B9ECD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7827327F6500B9ECD3 /* AppDelegate.swift */; };
 		9CA63F7B27327F6500B9ECD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7A27327F6500B9ECD3 /* SceneDelegate.swift */; };
 		9CA63F7D27327F6500B9ECD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA63F7C27327F6500B9ECD3 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C5F9E95275466A300595CB4 /* Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert.swift; sourceTree = "<group>"; };
 		9CA63F7527327F6500B9ECD3 /* ToDoApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA63F7827327F6500B9ECD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA63F7A27327F6500B9ECD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				9CA63F7E27327F6500B9ECD3 /* Main.storyboard */,
 				9CA63F8C2732815900B9ECD3 /* DataStructure.swift */,
 				9CA63F8E2732819B00B9ECD3 /* AppData.swift */,
+				9C5F9E95275466A300595CB4 /* Convert.swift */,
 				9CA63F8127327F6600B9ECD3 /* Assets.xcassets */,
 				9CA63F8327327F6600B9ECD3 /* LaunchScreen.storyboard */,
 				9CA63F8627327F6600B9ECD3 /* Info.plist */,
@@ -167,6 +170,7 @@
 				9CA63F8D2732815900B9ECD3 /* DataStructure.swift in Sources */,
 				9CA63F7927327F6500B9ECD3 /* AppDelegate.swift in Sources */,
 				9CA63F7B27327F6500B9ECD3 /* SceneDelegate.swift in Sources */,
+				9C5F9E96275466A300595CB4 /* Convert.swift in Sources */,
 				9CA63F9327340DAB00B9ECD3 /* ViewController+TableViewsDataSource.swift in Sources */,
 				9CA63F8F2732819B00B9ECD3 /* AppData.swift in Sources */,
 			);
