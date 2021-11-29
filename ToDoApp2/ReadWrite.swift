@@ -31,6 +31,23 @@ class ReadWrite
     
     class func read()
     {
-        
+        let data = try? Data(contentsOf: dataFile)
+        if data == nil
+        {
+            AppData.items = []
+            return
+            
+        }
+        do {
+            if let readARR = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data!) as? Array<Item>
+            {
+                AppData.items = readARR
+            }
+        }
+        catch
+        {
+            AppData.items = []
+            print(error)
+        }
     }
 }
