@@ -6,6 +6,7 @@ extension ViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        overrideUserInterfaceStyle = .light
         
         let defaults = UserDefaults.standard
         
