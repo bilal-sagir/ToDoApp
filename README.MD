@@ -4,7 +4,7 @@ Create a "ToDoApp" to learn Swift and UIKit.
 
 - Table views
 - Extension for String
-- Aniimations
+- Animations
 - NSObject
 - Set theme (Light theme only)
 
